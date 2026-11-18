@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="160dp"
+    android:viewportWidth="120"
+    android:viewportHeight="160">
+    <!-- Book Background -->
+    <path
+        android:fillColor="#1F2421"
+        android:pathData="M0,0h120v160H0z" />
+    <!-- Book Spine line -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M0,0h6v160H0z" />
+    <!-- Outer Gold Ring -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M60,65 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" />
+    <!-- Inner Dark Circle -->
+    <path
+        android:fillColor="#1F2421"
+        android:pathData="M60,65 m-26,0 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0" />
+    <!-- Starburst graphic inside circle -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M60,45 L63,60 L78,60 L65,68 L70,83 L60,73 L50,83 L55,68 L42,60 L57,60 Z" />
+</vector>

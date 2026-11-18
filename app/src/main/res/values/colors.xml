@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary Colors -->
+    <color name="primary_cyan">#00BDC4</color>
+    <color name="primary_cyan_dark">#008B91</color>
+    <color name="primary_cyan_light">#E0F7FA</color>
+    <color name="primary_cyan_container">#B2EBF2</color>
+
+    <!-- Neutral Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_light">#F5F7FA</color>
+    <color name="card_bg">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1D2939</color>
+    <color name="text_secondary">#667085</color>
+    <color name="text_muted">#98A2B3</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- UI Component Colors -->
+    <color name="border_gray">#D0D5DD</color>
+    <color name="input_bg">#F9FAFB</color>
+    <color name="star_yellow">#FFC107</color>
+    <color name="star_bg">#E0E0E0</color>
+
+    <!-- Navigation & Toolbar -->
+    <color name="nav_bg">#344054</color>
+    <color name="nav_active">#00BDC4</color>
+    <color name="nav_inactive">#98A2B3</color>
+    <color name="chip_selected_bg">#00BDC4</color>
+    <color name="chip_unselected_bg">#F2F4F7</color>
+</resources>

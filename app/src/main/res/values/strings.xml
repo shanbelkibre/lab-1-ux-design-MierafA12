@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ቱባ (Tuba Ethiopian)</string>
+
+    <!-- Authentication -->
+    <string name="login_title">አካውንት ይክፈቱ</string>
+    <string name="tab_phone">የስልክ ቁጥር</string>
+    <string name="tab_email">ኢሜይል</string>
+    <string name="hint_phone">+251 የስልክ ቁጥር</string>
+    <string name="hint_email">ኢሜይል</string>
+    <string name="hint_password">የይለፍ ቃል</string>
+    <string name="hint_confirm_password">የይለፍ ቃሉን ያረጋግጡ</string>
+    <string name="btn_login">ይግቡ</string>
+    <string name="link_no_account">አካውንት የለዎትም? ተመዝገቡ</string>
+    <string name="register_title">ታደሰ!</string>
+    <string name="register_subtitle">በይነመረብ ለመግባት ወይም ለመመዝገብ መረጃዎን ያስገቡ።</string>
+    <string name="btn_register">መዝግብ</string>
+    <string name="link_has_account">አካውንት አልዎት? ይግቡ</string>
+    <string name="forgot_password">የይለፍ ቃሉን ረስተዋል?</string>
+
+    <!-- Navigation & Titles -->
+    <string name="title_store">መደብር</string>
+    <string name="title_my_books">የኔ መጻሕፍት</string>
+    <string name="title_listening">በማዳመጥ ላይ</string>
+    <string name="title_reading">በማንበብ ላይ</string>
+    <string name="tab_editions">እትሞች</string>
+    <string name="tab_translations">ትርጉሞች</string>
+
+    <!-- Content Descriptions & General -->
+    <string name="cd_back">ተመለስ</string>
+    <string name="cd_clear">አጽዳ</string>
+    <string name="cd_menu">ማውጫ</string>
+    <string name="cd_share">አጋራ</string>
+    <string name="cd_star">ኮከብ</string>
+    <string name="rating_sample">4.8/5</string>
+    <string name="avatar_initial">M</string>
+
+    <!-- Store Sections -->
+    <string name="section_recently_released">ተለቀቀው የቀረቡ</string>
+    <string name="section_popular">ሰምተናል</string>
+    <string name="empty_books_msg">ምንም ትርጉሞች አልተገኙም</string>
+    <string name="empty_reading_msg">አሁን በማንበብ ላይ ያለ መጽሐፍ የለም</string>
+
+    <!-- Search & Filter -->
+    <string name="search_hint">ይፈልጉ</string>
+    <string name="search_results_count">58 መጻሕፍት ተገኝተዋል</string>
+    <string name="chip_translation">ትርጉም</string>
+    <string name="chip_fiction">የልብ ወለድ</string>
+
+    <!-- Book Detail -->
+    <string name="book_detail_title">የመጽሐፍ መረጃዎች</string>
+    <string name="btn_settings">ቅንብር</string>
+    <string name="btn_buy_book">መጽሐፉን ይግዙ</string>
+    <string name="banner_audio_book">በትርጉም እና በድምፅ መልክ የቀረበ</string>
+    <string name="reviews_title">የአንባቢዎች አስተያየቶች</string>
+
+    <!-- Demo Data -->
+    <string name="sample_book_title">እመቤቴ</string>
+    <string name="sample_book_author">አለማየሁ ገብሬ</string>
+    <string name="sample_book_title_2">ርእስ የሌለው</string>
+    <string name="sample_book_author_2">አሊሰን ቨታሁ</string>
+    <string name="sample_reviewer_name">ማህሌት</string>
+    <string name="sample_review_text">አሪፍ መጽሐፍ ነው! በጣም ወደድኩት።</string>
+</resources>

@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Top Header Banner -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="ቱባ (Tuba Ethiopian Mobile App) - All Pages Overview"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- ROW 1: Splash, Login, Register, Main Store, Search -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- 1. Splash Screen Phone -->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="520dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bg_phone_frame"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp">
+
+                    <!-- Phone Earpiece / Speaker -->
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/bg_phone_speaker" />
+
+                    <!-- Screen Content -->
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white">
+
+                        <include layout="@layout/activity_splash" />
+                    </FrameLayout>
+
+                    <!-- Home Button -->
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_home_button" />
+                </LinearLayout>
+
+                <!-- 2. Login Screen Phone -->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="520dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bg_phone_frame"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp">
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/bg_phone_speaker" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white">
+
+                        <include layout="@layout/activity_login" />
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_home_button" />
+                </LinearLayout>
+
+                <!-- 3. Register Screen Phone -->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="520dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bg_phone_frame"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp">
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/bg_phone_speaker" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white">
+
+                        <include layout="@layout/activity_register" />
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_home_button" />
+                </LinearLayout>
+
+                <!-- 4. Main Store Screen Phone -->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="520dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bg_phone_frame"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp">
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/bg_phone_speaker" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white">
+
+                        <include layout="@layout/activity_main" />
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_home_button" />
+                </LinearLayout>
+
+                <!-- 5. Search Screen Phone -->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="520dp"
+                    android:background="@drawable/bg_phone_frame"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp">
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/bg_phone_speaker" />
+
+                    <FrameLayout
+                        android:layout_width="268dp"
+                        android:layout_height="500dp"
+                        android:layout_weight="1"
+                        android:background="@color/white">
+
+                        <include layout="@layout/activity_search" />
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_home_button" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ROW 2: My Books, Listening, Reading -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <!-- 6. My Books Screen Phone -->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="520dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bg_phone_frame"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp">
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/bg_phone_speaker" />
+
+                    <!-- Full Screen Frame for My Books -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white">
+
+                        <!-- Top Header Bar -->
+                        <RelativeLayout
+                            android:id="@+id/tbMyBooks"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="@color/white"
+                            android:paddingHorizontal="12dp">
+
+                            <TextView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/bg_circle_avatar"
+                                android:gravity="center"
+                                android:text="M"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="@string/title_my_books"
+                                android:textColor="@color/text_primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <!-- Content Fragment -->
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@id/navMyBooksBottom"
+                            android:layout_below="@id/tbMyBooks">
+
+                            <include layout="@layout/fragment_my_books" />
+                        </FrameLayout>
+
+                        <!-- Bottom Nav -->
+                        <LinearLayout
+                            android:id="@+id/navMyBooksBottom"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/nav_bg"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_store"
+                                    android:src="@drawable/ic_store" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_store"
+                                    android:textColor="@color/text_muted"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="#26C6DA"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_my_books"
+                                    android:src="@drawable/ic_my_books" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_my_books"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_listening"
+                                    android:src="@drawable/ic_listening" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_listening"
+                                    android:textColor="@color/text_muted"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_reading"
+                                    android:src="@drawable/ic_reading" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_reading"
+                                    android:textColor="@color/text_muted"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_home_button" />
+                </LinearLayout>
+
+                <!-- 7. Listening Screen Phone -->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="520dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bg_phone_frame"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp">
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/bg_phone_speaker" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white">
+
+                        <!-- Top Header Bar -->
+                        <RelativeLayout
+                            android:id="@+id/tbListening"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="@color/white"
+                            android:paddingHorizontal="12dp">
+
+                            <TextView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/bg_circle_avatar"
+                                android:gravity="center"
+                                android:text="M"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="@string/title_listening"
+                                android:textColor="@color/text_primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@id/navListeningBottom"
+                            android:layout_below="@id/tbListening">
+
+                            <include layout="@layout/fragment_listening" />
+                        </FrameLayout>
+
+                        <!-- Bottom Nav -->
+                        <LinearLayout
+                            android:id="@+id/navListeningBottom"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/nav_bg"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_store"
+                                    android:src="@drawable/ic_store" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_store"
+                                    android:textColor="@color/text_muted"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_my_books"
+                                    android:src="@drawable/ic_my_books" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_my_books"
+                                    android:textColor="@color/text_muted"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="#26C6DA"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_listening"
+                                    android:src="@drawable/ic_listening" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_listening"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_reading"
+                                    android:src="@drawable/ic_reading" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_reading"
+                                    android:textColor="@color/text_muted"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_home_button" />
+                </LinearLayout>
+
+                <!-- 8. Reading Screen Phone -->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="520dp"
+                    android:background="@drawable/bg_phone_frame"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp">
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/bg_phone_speaker" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white">
+
+                        <!-- Top Header Bar -->
+                        <RelativeLayout
+                            android:id="@+id/tbReading"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="@color/white"
+                            android:paddingHorizontal="12dp">
+
+                            <TextView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/bg_circle_avatar"
+                                android:gravity="center"
+                                android:text="M"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="@string/title_reading"
+                                android:textColor="@color/text_primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@id/navReadingBottom"
+                            android:layout_below="@id/tbReading">
+
+                            <include layout="@layout/fragment_reading" />
+                        </FrameLayout>
+
+                        <!-- Bottom Nav -->
+                        <LinearLayout
+                            android:id="@+id/navReadingBottom"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/nav_bg"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_store"
+                                    android:src="@drawable/ic_store" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_store"
+                                    android:textColor="@color/text_muted"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_my_books"
+                                    android:src="@drawable/ic_my_books" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_my_books"
+                                    android:textColor="@color/text_muted"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_listening"
+                                    android:src="@drawable/ic_listening" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_listening"
+                                    android:textColor="@color/text_muted"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="#26C6DA"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:contentDescription="@string/title_reading"
+                                    android:src="@drawable/ic_reading" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/title_reading"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_home_button" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- ROW 3: Book Detail Screen -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <!-- 9. Book Detail Screen Phone -->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="520dp"
+                    android:background="@drawable/bg_phone_frame"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp">
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/bg_phone_speaker" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white">
+
+                        <include layout="@layout/activity_book_detail" />
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_home_button" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</HorizontalScrollView>

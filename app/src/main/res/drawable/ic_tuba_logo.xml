@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Top horizontal diamond bar -->
+    <path
+        android:fillColor="#00BDC4"
+        android:pathData="M20,15 L80,15 L75,23 L25,23 Z" />
+    <!-- Middle diamond bar -->
+    <path
+        android:fillColor="#00BDC4"
+        android:pathData="M30,30 L70,30 L65,38 L35,38 Z" />
+    <!-- Lower diamond bar -->
+    <path
+        android:fillColor="#00BDC4"
+        android:pathData="M40,45 L60,45 L50,55 Z" />
+    <!-- Central Cyan Dot -->
+    <path
+        android:fillColor="#00BDC4"
+        android:pathData="M50,65 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    <!-- Bottom Cyan Dot -->
+    <path
+        android:fillColor="#00BDC4"
+        android:pathData="M50,80 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+</vector>
